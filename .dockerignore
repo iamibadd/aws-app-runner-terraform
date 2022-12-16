@@ -1,0 +1,10 @@
+node_modules
+.git
+.gitignore
+.env*
+!.env*.example
+deployment
+.vscode
+.idea
+Makefile
+README.md
