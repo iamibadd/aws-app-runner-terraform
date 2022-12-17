@@ -4,7 +4,7 @@ USER root
 # execution folder
 WORKDIR /app
 # copy all files from host to source (container)
-COPY . /app
+COPY .. /app
 # best practice
 ENV PATH /app/node_modules/.bin:$PATH
 # environment variables here
